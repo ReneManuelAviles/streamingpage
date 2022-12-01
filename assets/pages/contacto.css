@@ -66,6 +66,42 @@ img{
     width: 100%;
 }
 
+/* ===== SERVICES ===== */
+.services_title{
+    text-align: center;
+    color: var(--extra-color);
+}
+
+.services_text{
+    text-align: center;
+}
+
+.services_content{
+    margin-top: 2rem;
+}
+.card_container{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.4rem;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(141, 188, 229);
+    box-shadow: 0px 3px 10px rgba(0 0 0 / 15%);
+    cursor: pointer;
+    border-radius: .3rem;
+    padding: 2rem 3rem;
+}
+
+.card:hover{
+    transform: scale(1.09);
+}
+
+.img_card{
+    width: 7%;
+}
+
+
 /* ===== CUSTOM CLASSES ===== */
 .container{
     max-width: 900px;
